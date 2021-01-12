@@ -1,0 +1,262 @@
+/* For Icons */
+i{
+    float: left;
+    padding-top: 0.6rem;
+}
+.right-top-corner-icon1 {
+    content: "";
+    position: absolute;
+    top: 1.1rem;
+    left: 60%;
+    display: block;
+}
+.right-top-corner-icon2 {
+    content: "";
+    position: absolute;
+    left: 72.5%;
+    display: block;
+    background-color: rgb(88, 121, 212);
+    margin-top: 1.3rem;
+    padding: 8px;
+    border-radius: 5px;
+}
+.right-top-corner-icon3 {
+    content: "";
+    position: absolute;
+    top: 1.1rem;
+    left: 66%;
+    display: block;
+}
+
+/* For vertical subdivision */
+.container:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 79rem;
+    top: 2px;
+    left: 18%;
+    border-left: 1px solid gray;
+    opacity: 15%;
+    display: block;
+}
+.vertical-line:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 2rem;
+    top: 2px;
+    left: 63%;
+    margin-top: 1rem;
+    border-left: 1px solid gray;
+    opacity: 15%;
+    display: block;
+}
+
+/* For Horizontal subdivision */
+.horizontal-rule {
+    border-top: 1px solid gray;
+    width: 80rem;
+    opacity: 15%;
+    content: "";
+    position: relative;
+    left: -3%;
+  }
+
+/* Navigation bar on the left */
+.first-part{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 64.65rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+}
+.second-part{
+    margin-top:  5px;
+    margin-bottom: 1.5rem;
+    margin-right: 64.65rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+}
+.second-part-subdiv{
+    margin-left: 1.5rem; 
+}
+.third-part{
+    margin-top: 5px;
+    margin-bottom: 1.5rem;
+    margin-right: 65rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+}
+.fourth-part {
+    margin-top: 30rem;
+    margin-bottom: 1.5rem;
+    margin-right: 65rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+}
+.upgrade {
+    color: rgb(88, 121, 212);
+    content: "";
+    display: block;
+    position: absolute;
+    left: 12%;
+    top: 76.8rem;
+}
+.nav-bottom {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: 10px 1rem 10px 2.5rem;
+    border-radius: 5px;
+    border: 0.1px solid rgba(245, 245, 245, 0.164);
+}
+.content {
+    margin-bottom: 0%;
+    margin-left: 0%;
+}
+.sub {
+    padding-left: 3rem;
+}
+.sub-icon {
+    padding-left: 1rem;
+}
+
+/* Headings */
+.nav-heading {
+    color: gray;
+    margin-bottom: 0%;
+    margin-left: 0.9rem;
+    margin-right: 65rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+}
+p {
+    padding-left: 0%;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+    color: gray;
+}
+li,.heading {
+    color: rgb(221, 216, 231);
+    /* color : red; */
+    background-color: "#212931";
+    list-style-type: none;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    margin-bottom: 0%;
+    margin-top: 0rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.83rem;
+}
+.right-top-corner {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    display: block;
+    left: 65%;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: 5px 1rem 5px 2.5rem;
+    border-radius: 5px;
+    border: 0.1px solid rgba(245, 245, 245, 0.164);
+}
+.right-heading {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Hovers */
+.button2:hover {
+    background-color:rgba(112, 117, 122, 0.205); 
+}
+li:hover{
+    background-color:rgba(112, 117, 122, 0.205);
+    border-radius: 5px;
+}
+.content:hover {
+    background-color:rgba(112, 117, 122, 0.075);
+    padding-bottom: 1.5rem;
+    margin-bottom: 0%;
+    /* margin-inline-start: -3%; */
+    /* margin-left: -3%; */
+}
+.username-circle {
+    align-content: right;
+    background-color: rgb(184, 100, 218);
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 13%;
+    color: white;
+    display: block;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    text-indent: 1px;
+}
+.right-top-corner-icon1:hover {
+    background-color:rgba(112, 117, 122, 0.075);
+    padding: 20px;
+    /* padding-left: ; */
+}
+
+/* Part on the right */
+.right-side {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 21%;
+    display: block;
+    color: whitesmoke;
+}
+.button2 {
+    border-radius: 5px;
+    background-color: rgb(22, 23, 26);
+    color: whitesmoke;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.content {
+    margin-bottom: 1rem;
+    color: white;
+}
+.right-right-side {
+    content: "";
+    position: absolute;
+    top: 6.8rem;
+    display: block;
+    color:gray;
+    left: 65.5%;
+    display: flex;
+}
+.right-bottom-content, .right-bottom-content1,.right-bottom-content2, .right-bottom-content3 {
+    content: "";
+    position: absolute;
+    top: 9.8rem;
+    display: block;
+    color:gray;
+    left: 65%;
+    display: flex;
+}
+.right-bottom-content1 {
+    top: 12.8rem;
+}
+.right-bottom-content2 {
+    top: 15.8rem;
+}
+.right-bottom-content3 {
+    top: 18.8rem;
+}
+
+/* Spacing right elements */
+.spacing {
+    margin-right: 3.5rem;
+}
